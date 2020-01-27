@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+.hero {
+    padding-top: 14vh;
+    height: 80vh;
+    background-image: url("/img/academics-hero.jpg");
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    background: rgba(226, 227, 233, 0.863);
+    position: absolute;
+    height: 80vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.academics-hero {
+    margin-top: 230px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.academics-hero h1 {
+    font-family: 'Playfair Display', black;
+    color: #B45F06;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.academics-hero h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* DESIGN*/
+.design{
+    height: 65vh;
+    margin-top: 80px;
+}
+
+/* KINDERGARTEN */
+.kindergarten{
+    height: 65vh;
+}
+/* ELEMENTARY */
+.elementary{
+    height: 65vh;
+}
+/* MIDDLE SCHOOL */
+.middle_school{
+    height: 65vh;
+}
+/* HIGH SCHOOL  */
+.high_school{
+    height: 65vh;
+}
+/* LIVE TO GIVE  */
+.live_give{
+    height: 65vh;
+}
+/* WELLBEING  */
+.wellbeing{
+    height: 65vh;
+}
+.pg-content h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 45px;
+    font-weight: 800;
+}
+.pg-content h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 26px;
+    font-weight: 600;
+}
+.pg-content p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+#aca-btn{
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+}
+img{
+    height: 360px;
+    width: 480px;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+.hero {
+    padding-top: 14vh;
+    height: 80vh;
+    background-image: url("/img/about-hero.jpg");
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    background: rgba(226, 227, 233, 0.863);
+    position: absolute;
+    height: 80vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/* WELCOME */
+.welcome {
+    margin-top: 230px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.welcome h1 {
+    font-family: 'Playfair Display', black;
+    color: #B45F06;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.welcome h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* VISION */
+.vision {
+    height: 60vh;
+}
+
+.vis-content {
+    margin-top: 60px;
+}
+
+.vis-content h1 {
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.vis-content h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.vis-content p {
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+
+.vis-content img {    
+    box-shadow: -8px -8px 8px 0 #ffffffff,
+    8px 8px 8px 0 rgba(0, 0, 0, .1);
+}
+/* MISSION */
+.mission{
+    height: 100vh;
+}
+.mission-statement h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 45px;
+    font-weight: 800;
+}
+.mission h3, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 26px;
+    font-weight: 600;
+}
+.mission p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+/* RENAISSANCE */
+.renaissance{
+    height: 70vh;
+    background-color: #EEEFEA;
+    margin-bottom: 80px;
+}
+.renaissance h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 45px;
+    font-weight: 800;
+}
+.renaissance h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.renaissance p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+#ren-btn{
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+}
+.renaissance button{
+    font-size: 10px;
+
+}
+.first{
+    margin-bottom: 48px;
+}
+/* FACULTY */
+.faculty{
+    height: 50vh;
+    margin-bottom: 80px;
+}
+
