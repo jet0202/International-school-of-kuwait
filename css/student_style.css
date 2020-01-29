@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+.hero {
+    padding-top: 14vh;
+    height: 80vh;
+    background-image: url("/img/student-hero.jpg");
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    background: rgba(226, 227, 233, 0.863);
+    position: absolute;
+    height: 80vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.student-hero{
+    margin-top: 230px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+    /* position: relative; */
+}
+.student-hero h1{
+    font-family: 'Playfair Display', black;
+    color: #B45F06;
+    font-size: 62px;
+    font-weight: 900;
+}
+.student-hero h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
