@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+.hero {
+    padding-top: 14vh;
+    height: 80vh;
+    background-image: url("/img/team-hero.jpg");
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    background: rgba(226, 227, 233, 0.863);
+    position: absolute;
+    height: 80vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.talent-hero {
+    margin-top: 230px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.talent-hero h1 {
+    font-family: 'Playfair Display', black;
+    color: #B45F06;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.talent-hero h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
+.talent-hero h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
+.talent-content h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 38px;
+    font-weight: 900;
+}
+.talent-content h3,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;    
+    
+}
+.info{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.info h3{
+    font-weight: 400;
+    margin-top: 30px;
+}
+.info h5{
+    font-weight: 700;
+}
+.talent-content p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+.overview{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    height: 50vh;
+}
+#talent-btn{
+    height: 50px;
+    width: 200px;
+    font-size: 12px;
+}

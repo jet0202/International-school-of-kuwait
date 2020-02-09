@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+.hero {
+    padding-top: 14vh;
+    height: 80vh;
+    background-image: url("/img/contact-hero.jpg");
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    background: rgba(226, 227, 233, 0.863);
+    position: absolute;
+    height: 80vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.contactus-hero {
+    margin-top: 230px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.contactus-hero h1 {
+    font-family: 'Playfair Display', black;
+    color: #B45F06;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.contactus-hero h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contactus-hero h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 700;
+}
+.campuses{
+    height: 70vh;
+}
+.card{
+    margin-top: 48px;
+    width: 420px;
+}
+.card-img-top{
+    width: 420px !important;
+    height: auto;
+}
+.card-body{
+    background-color: #FCFEF7 !important;
+    text-align: center;
+    color: #233853;
+}
+.card-body h5{
+    font-family: 'Playfair Display', black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact{
+    height: 100vh;
+    text-align: center;   
+}
+.contact h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 40px;
+    font-weight: 900;
+}
+.contact h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;
+    font-size: 30px;
+    font-weight: 500;
+}
+.contact p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+form{
+    align-self: center;
+    width: 362px;
+}
+input[type='text'],
+input[type='email']{
+    background-color: #EEEFEA;
+    border-radius: 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid #B45F06
+}
+textarea.form-control{
+    background-color: #EEEFEA;
+    border-radius: 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid #B45F06
+}
+

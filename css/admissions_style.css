@@ -98,9 +98,120 @@
 .card:hover::after {
     opacity: 1;
 }
-.card-body{
-    color: #233853;
+.card-body p{
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #233853 !important;
+    font-weight: 700 !important;
 }
 .visit{
     height: 110vh;
+}
+.visit h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 40px;
+    font-weight: 800;
+}
+.visit h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;    
+    font-weight: 700;
+    font-size: 24px;
+}
+.visit p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+.tuition{
+    height: 75vh;
+}
+.tuition h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.tuition h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;    
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.table{
+    margin-top: 48px;
+}
+.table thead th{
+    border-top: none;
+    border-bottom: 3px solid #233853 !important;
+}
+.table td, .table th{
+    border: none;
+}
+.table th,td{
+    font-family: 'PT Serif', serif !important;
+    color: #979993 !important;
+}
+.apply{
+    height: 50vh;
+}
+.apply h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 40px;
+    font-weight: 800;
+}
+.apply h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;    
+    font-weight: 700;
+    font-size: 24px;
+}
+.apply p{
+    font-family: 'PT Serif', serif;
+    color: #979993;
+    font-size: 17px;
+}
+.request{
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.request h1{
+    font-family: 'Playfair Display', black;
+    color: #233853;
+    font-size: 40px;
+    font-weight: 800;
+}
+.request h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #233853;    
+    font-weight: 700;
+    font-size: 24px;
+}
+input[type='text'],
+input[type='email']{
+    width: 362px;
+    background-color: #EEEFEA;
+    border-radius: 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid #B45F06
+}
+input[type='text']:focus,
+input[type='email']:focus{
+    width: 362px;
+    background-color: #EEEFEA;
+    border-radius: 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid #B45F06
+}
+#req-btn{
+    font-size: small;
+    width: 210px;
+    height: 40px;
 }
