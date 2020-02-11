@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
         integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Lib/animate/animate.min.css" />
 </head>
 
 <body>
@@ -86,7 +87,7 @@
         <section class="schedule">
             <div class="row">
                 <div class="col-lg-8">
-                   
+
                     <div id="carousel" class="carousel slide d-none d-sm-none d-md-block" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -106,34 +107,24 @@
                 </div>
                 <div class="col-lg-4 col-sm-8">
                     <div class="taglines">
-                        <h2>Be inspired...</h2>
-                        <h4>Transforming education</h4>
-                        <h4>Building leaders</h4>
-                        <h4>Creating innovators</h4>
-                        <h4>Inspiring Excellence</h4>
-                        <button type="submit" class="submit-btn hvr-bounce-to-bottom">
+                        <h2 class="wow fadeInRight">Be inspired...</h2>
+                        <h4 class="wow fadeIn" data-wow-delay="1s">Transforming education</h4>
+                        <h4 class="wow fadeIn" data-wow-delay="1.5s">Building leaders</h4>
+                        <h4 class="wow fadeIn" data-wow-delay="2s">Creating innovators</h4>
+                        <h4 class="wow fadeIn" data-wow-delay="2.5s">Inspiring Excellence</h4>
+                        <button type="submit" class="submit-btn hvr-bounce-to-bottom wow fadeIn" data-wow-delay="5">
                             Schedule a tour&nbsp;&nbsp;<span style="font-size: 12px;"><i
                                     class="fas fa-arrow-right"></i></span>
                         </button>
                     </div>
-
                 </div>
-
-
-
-
             </div>
-
-
-
-
-
         </section>
         <div class="container">
-            <section class="curriculum">
+            <section class="curriculum" data-wow-delay="">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div class="curriculum_tag">
+                        <div class="curriculum_tag wow fadeInUp">
                             <h2>Lorem ipsum dolor</h2>
                             <h5>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
                             <p>Incididunt ut labore et dolore magna aliqua. Turpis tincidunt id aliquet risus. Auctor
@@ -151,7 +142,7 @@
                     </div>
                 </div>
             </section>
-            <section class="events">
+            <section class="events wow fadeInUp" data-wow-delay="1">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="event-det">
@@ -165,7 +156,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="card-deck">
+                    <div class="card-deck wow fadeIn" data-wow-delay="1.2s">
                         <div class="card" style="width: 18rem;">
                             <img src="img/people-sitting-on-gang-chairs-2774556.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -271,28 +262,37 @@
                 </p>
             </div>
             <!-- <div class="footer-l2"> -->
-                <div class="socials">
-                    <a href="#"><p><i class="fab fa-facebook-f"></i></p></a>
-                    <a href="#"><p><i class="fab fa-instagram"></i></p></a>
-                    <a href="#"><p><i class="fab fa-twitter"></i></p></a>
-                    <a href="#"><p><i class="fab fa-youtube"></i></p></a>  
-                    
-                    <a href="https://www.teachaway.com/schools/international-school-kuwait-al-ekhlas-international-education-school">Talent</a>
-                    <a href="Contactus.html">Contact us</a>
-                    <a href="Privacy.html">Privacy</a>
-                    <a href="legal.html">Legal</a>
-                </div>
-                <div class="links">
-                   
-                </div>
+            <div class="socials">
+                <a href="#">
+                    <p><i class="fab fa-facebook-f"></i></p>
+                </a>
+                <a href="#">
+                    <p><i class="fab fa-instagram"></i></p>
+                </a>
+                <a href="#">
+                    <p><i class="fab fa-twitter"></i></p>
+                </a>
+                <a href="#">
+                    <p><i class="fab fa-youtube"></i></p>
+                </a>
+
+                <a
+                    href="https://www.teachaway.com/schools/international-school-kuwait-al-ekhlas-international-education-school">Talent</a>
+                <a href="Contactus.html">Contact us</a>
+                <a href="Privacy.html">Privacy</a>
+                <a href="legal.html">Legal</a>
+            </div>
+            <div class="links">
+
+            </div>
             <!-- </div> -->
             <div class="copyright">
-                <small>&copy; 2019 Al Ekhlas International Education</small>                
+                <small>&copy; 2019 Al Ekhlas International Education</small>
             </div>
         </div>
 
 
-        
+
     </footer>
     <!-- <footer class="navbar navbar-toggleable-md navbar-inverse bg-faded mt-4">
         <div class="container pt-4 pb-3">
@@ -315,7 +315,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <!-- <script src="js/app.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
     <!-- <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {

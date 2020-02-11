@@ -74,7 +74,7 @@
 .life{
     height: 100vh;
 }
-.life p{
+.texts{
     text-align: center;
 }
 .resource{
@@ -92,4 +92,7 @@
 .arts{
     margin-top: 48px;
     height: 150vh;
+}
+.bottom{
+    margin-top: 40px;
 }
