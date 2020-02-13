@@ -85,9 +85,10 @@
 #aca-btn{
     height: 40px;
     width: 200px;
-    font-size: 12px;
+    font-size: 14px;
+    padding-bottom: 15px;
 }
-img{
+/* img{
     height: 360px;
     width: 480px;
-}
+} */

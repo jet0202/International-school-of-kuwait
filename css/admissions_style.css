@@ -214,4 +214,5 @@ input[type='email']:focus{
     font-size: small;
     width: 210px;
     height: 40px;
+    padding-bottom: 20px;
 }
