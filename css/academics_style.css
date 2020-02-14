@@ -88,7 +88,56 @@
     font-size: 14px;
     padding-bottom: 15px;
 }
-/* img{
-    height: 360px;
-    width: 480px;
-} */
+@media (max-width: 575.98px) {
+    .hero {
+        height: 80vh;
+        width: auto;
+    }
+    .academics-hero{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .academics-hero h1{
+        margin-top: 20px;
+        font-size: 34px;
+    }
+    .academics-hero h3{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .design{
+        height: auto;
+    }
+    .kindergarten{
+        /* display: none; */
+        height: auto;
+    }
+    .elementary{
+        /* display: none; */
+        height: auto;
+    }
+    .middle_school{
+        /* display: none; */
+        height: auto;
+    }
+    .high_school{
+        /* display: none; */
+        height: auto;
+    }
+    .live_give{
+        /* display: none; */
+        height: auto;
+    }
+    .wellbeing{
+        /* display: none; */
+        height: auto;
+    }
+    .footer{
+        display: none;
+    }
+}
+/* @media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {} */ 

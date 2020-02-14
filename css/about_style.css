@@ -16,7 +16,9 @@
     left: 0;
     right: 0;
 }
+
 /* WELCOME */
+
 .welcome {
     margin-top: 230px;
     margin-left: 120px;
@@ -36,7 +38,9 @@
     font-size: 30px;
     font-weight: 700;
 }
+
 /* VISION */
+
 .vision {
     height: 60vh;
 }
@@ -65,70 +69,153 @@
     font-size: 17px;
 }
 
-.vis-content img {    
-    box-shadow: -8px -8px 8px 0 #ffffffff,
-    8px 8px 8px 0 rgba(0, 0, 0, .1);
+.vis-content img {
+    box-shadow: -8px -8px 8px 0 #ffffffff, 8px 8px 8px 0 rgba(0, 0, 0, .1);
 }
+
 /* MISSION */
-.mission{
+
+.mission {
     height: 100vh;
 }
-.mission-statement h1{
+
+.mission-statement h1 {
     font-family: 'Playfair Display', black;
     color: #233853;
     font-size: 45px;
     font-weight: 800;
 }
-.mission h3, h4{
+
+.mission h3, h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 26px;
     font-weight: 600;
 }
-.mission p{
+
+.mission p {
     font-family: 'PT Serif', serif;
     color: #979993;
     font-size: 17px;
 }
+
 /* RENAISSANCE */
-.renaissance{
+
+.renaissance {
     height: 70vh;
     background-color: #EEEFEA;
     margin-bottom: 80px;
 }
-.renaissance h1{
+
+.renaissance h1 {
     font-family: 'Playfair Display', black;
     color: #233853;
     font-size: 45px;
     font-weight: 800;
 }
-.renaissance h4{
+
+.renaissance h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 26px;
     font-weight: 600;
     text-align: center;
 }
-.renaissance p{
+
+.renaissance p {
     font-family: 'PT Serif', serif;
     color: #979993;
     font-size: 17px;
 }
-#ren-btn{
+
+#ren-btn {
     height: 40px;
     width: 200px;
     font-size: 12px;
 }
-.renaissance button{
-    font-size: 10px;
 
+.renaissance button {
+    font-size: 10px;
 }
-.first{
+
+.first {
     margin-bottom: 48px;
 }
+
 /* FACULTY */
-.faculty{
+
+.faculty {
     height: 50vh;
     margin-bottom: 80px;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px) {
+    
+    .hero {
+        height: 80vh;
+        width: auto;
+    }
+    .welcome{
+        margin-top: 20px;
+        margin-left: 0px;        
+    }
+    .welcome h1{
+        font-size: 40px;
+    }
+    .welcome h3{
+        font-size: 30px;
+    }
+    .vision {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mission {
+        margin-top: 40px;
+        height: auto;
+    }
+    .renaissance {
+        height: auto;
+        text-align: center;        
+    }
+    #ren-btn{
+        width: 250px;
+        height: 50px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .faculty {
+        height: auto;
+        text-align: center;
+    }
+    #fac-btn{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .footer {
+        height: auto;
+        /* display: none;      */
+    }
+    #footer-btn {
+        margin-bottom: 20px !important;
+    }
+    #isk-foot-heading {
+        /* margin-left: 20px; */
+    }
+    .contact-info {
+        font-size: 10px;
+    }
+    .socials {
+        justify-content: space-evenly;
+    }
+    .copyright {
+        margin-left: 50px;
+    }
+}
+
+/* @media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {} */
