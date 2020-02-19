@@ -16,6 +16,7 @@
     left: 0;
     right: 0;
 }
+
 .contactus-hero {
     margin-top: 230px;
     margin-left: 120px;
@@ -35,64 +36,76 @@
     font-size: 30px;
     font-weight: 700;
 }
+
 .contactus-hero h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 30px;
     font-weight: 700;
 }
-.campuses{
+
+.campuses {
     height: 70vh;
 }
-.card{
+
+.card {
     margin-top: 48px;
     width: 420px;
 }
-.card-img-top{
+
+.card-img-top {
     width: 420px !important;
     height: auto;
 }
-.card-body{
+
+.card-body {
     background-color: #FCFEF7 !important;
     text-align: center;
     color: #233853;
 }
-.card-body h5{
+
+.card-body h5 {
     font-family: 'Playfair Display', black;
     font-size: 30px;
     font-weight: 700;
 }
-.contact{
+
+.contact {
     height: 100vh;
-    text-align: center;   
+    text-align: center;
 }
-.contact h1{
+
+.contact h1 {
     font-family: 'Playfair Display', black;
     color: #233853;
     font-size: 40px;
     font-weight: 900;
     margin-top: 60px;
 }
-.contact h4{
+
+.contact h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 30px;
     font-weight: 500;
 }
-.contact p{
+
+.contact p {
     font-family: 'PT Serif', serif;
     color: #979993;
     font-size: 17px;
 }
-.form{
+
+.form {
     align-self: center;
 }
-form{    
+
+form {
     margin-left: 100px;
     width: 362px;
 }
-input[type='text'],
-input[type='email']{
+
+input[type='text'], input[type='email'] {
     background-color: #EEEFEA;
     border-radius: 0;
     border-left: none;
@@ -100,7 +113,8 @@ input[type='email']{
     border-right: none;
     border-bottom: 3px solid #B45F06
 }
-textarea.form-control{
+
+textarea.form-control {
     background-color: #EEEFEA;
     border-radius: 0;
     border-left: none;
@@ -108,46 +122,55 @@ textarea.form-control{
     border-right: none;
     border-bottom: 3px solid #B45F06
 }
-#contact-btn{
+
+#contact-btn {
     width: 220px;
     height: 50px;
     font-size: 16px;
 }
-.social_media{
+
+.social_media {
     text-align: center;
-    height: 30vh;    
+    height: 30vh;
 }
-.social_media h1{
+
+.social_media h1 {
     font-family: 'Playfair Display', black;
     color: #233853;
     font-size: 40px;
     font-weight: 900;
 }
-.icons{
+
+.icons {
     margin-top: 32px;
 }
-.icons p{
+
+.icons p {
     padding: 32px;
     color: #233853;
 }
-.tours{
+
+.tours {
     text-align: center;
     height: 70vh;
 }
-.tours h1{
+
+.tours h1 {
     font-family: 'Playfair Display', black;
     color: #233853;
     font-size: 40px;
     font-weight: 900;
 }
-.tours h3{
+
+.tours h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 30px;
     font-weight: 500;
     margin-top: 29px;
 }
-#tour-btn{
+
+#tour-btn {
     width: 220px;
     height: 50px;
     font-size: 16px;
@@ -164,8 +187,9 @@ textarea.form-control{
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-  }
-  .hvr-float-shadow:before {
+}
+
+.hvr-float-shadow:before {
     pointer-events: none;
     position: absolute;
     z-index: -1;
@@ -175,32 +199,79 @@ textarea.form-control{
     height: 10px;
     width: 90%;
     opacity: 0;
-    background: -webkit-radial-gradient(
-      center,
-      ellipse,
-      rgba(0, 0, 0, 0.35) 0,
-      rgba(0, 0, 0, 0) 80%
-    );
-    background: radial-gradient(
-      ellipse at center,
-      rgba(0, 0, 0, 0.35) 0,
-      rgba(0, 0, 0, 0) 80%
-    );
+    background: -webkit-radial-gradient( center, ellipse, rgba(0, 0, 0, 0.35) 0, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient( ellipse at center, rgba(0, 0, 0, 0.35) 0, rgba(0, 0, 0, 0) 80%);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform, opacity;
     transition-property: transform, opacity;
-  }
-  .hvr-float-shadow:active,
-  .hvr-float-shadow:focus,
-  .hvr-float-shadow:hover {
+}
+
+.hvr-float-shadow:active, .hvr-float-shadow:focus, .hvr-float-shadow:hover {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
-  }
-  .hvr-float-shadow:active:before,
-  .hvr-float-shadow:focus:before,
-  .hvr-float-shadow:hover:before {
+}
+
+.hvr-float-shadow:active:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:hover:before {
     opacity: 1;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
-  }
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px) {
+    .hero {
+        height: 80vh;
+        /* width: auto; */
+    }
+    .contactus-hero {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .contactus-hero h1 {
+        margin-top: 20px;
+        font-size: 34px;
+    }
+    .contactus-hero h3 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .campuses {
+        height: auto;
+        /* display: none; */
+    }
+    .card{
+        width: 294px !important;
+    }
+    .card-img-top {
+        width: 292px !important;
+    }
+    .contact {
+        height: auto;
+        display: none;
+    }
+    .social_media {
+        height: auto;
+        display: none;
+    }
+    .icons p {
+        padding: 28px;
+    }
+    .tours {
+        height: auto;
+        display: none;
+    }
+    /* #req-btn{
+        margin-bottom: 10px;
+    } */
+    .footer {
+        display: none;
+    }
+}
+
+/* @media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {} */

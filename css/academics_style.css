@@ -111,6 +111,13 @@
     .kindergarten{
         /* display: none; */
         height: auto;
+        margin-top: 20px;
+    }
+    #curr_img{
+        margin-bottom: 10px;
+    }
+    #aca-btn{
+        margin-bottom: 10px;
     }
     .elementary{
         /* display: none; */

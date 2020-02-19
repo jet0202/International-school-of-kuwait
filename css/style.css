@@ -20,7 +20,7 @@ body {
 @media (max-width: 992px) {
   .navbar-collapse {
     position: absolute;
-    top: 90px;
+    top: 70px;
     right: 100%;
     padding-left: 15px;
     padding-right: 15px;
