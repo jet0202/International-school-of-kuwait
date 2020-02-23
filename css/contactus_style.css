@@ -96,14 +96,14 @@
     font-size: 17px;
 }
 
-.form {
+/* .form {
     align-self: center;
 }
 
 form {
     margin-left: 100px;
     width: 362px;
-}
+} */
 
 input[type='text'], input[type='email'] {
     background-color: #EEEFEA;
@@ -242,6 +242,7 @@ textarea.form-control {
         /* display: none; */
     }
     .card{
+        margin-left: 20px;
         width: 294px !important;
     }
     .card-img-top {
@@ -249,18 +250,22 @@ textarea.form-control {
     }
     .contact {
         height: auto;
-        display: none;
+        /* display: none; */
     }
+    
     .social_media {
         height: auto;
-        display: none;
+        margin-top: 40px;
+        /* display: none; */
     }
     .icons p {
-        padding: 28px;
+        top: 0;
+        padding: 20px;
     }
     .tours {
+        margin-top: 20px;
         height: auto;
-        display: none;
+        /* display: none; */
     }
     /* #req-btn{
         margin-bottom: 10px;

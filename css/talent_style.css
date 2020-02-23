@@ -103,10 +103,16 @@
         height: auto;
         /* display: none; */
     }
+    #talent-img{
+        margin-top: 15px !important;
+    }
     .application{
         height: auto;
+        /* display: none; */
     }
-    
+    #email_addy{
+        font-size: 19px;
+    }
     .footer {
         display: none;
     }
