@@ -76,7 +76,7 @@ img{
     width: 200px;
     font-size: 12px;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     .hero {
         height: 80vh;
         width: auto;
@@ -113,6 +113,25 @@ img{
     }
     
 }
+@media (min-width: 576px) and (max-width: 769px){
+    .spaces-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .introduction{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mahboula{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .sabah{
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
 /* @media (max-width: 767.98px) {}
 
 @media (max-width: 991.98px) {}

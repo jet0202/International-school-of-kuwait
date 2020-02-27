@@ -88,7 +88,9 @@
     font-size: 14px;
     padding-bottom: 15px;
 }
-@media (max-width: 575.98px) {
+
+/* MEDIA QUERIES    */
+@media (max-width: 576px) {
     .hero {
         height: 80vh;
         width: auto;
@@ -141,6 +143,52 @@
     }
     .footer{
         display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 769px){
+    .academics-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .design{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .kindergarten{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #curr_img{
+        margin-bottom: 10px;
+    }
+    #aca-btn{
+        margin-bottom: 10px;
+    }
+    .elementary{
+        /* display: none; */
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .middle_school{
+        /* display: none; */
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .high_school{
+        /* display: none; */
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .live_give{
+        /* display: none; */
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .wellbeing{
+        /* display: none; */
+        height: auto;
+        margin-bottom: 20px;
     }
 }
 /* @media (max-width: 767.98px) {}

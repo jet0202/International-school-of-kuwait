@@ -16,140 +16,199 @@
     left: 0;
     right: 0;
 }
-.student-hero{
+
+.student-hero {
     margin-top: 230px;
     margin-left: 120px;
     margin-bottom: 80px;
     /* position: relative; */
 }
-.student-hero h1{
+
+.student-hero h1 {
     font-family: 'Playfair Display', black;
     color: #B45F06;
     font-size: 62px;
     font-weight: 900;
 }
-.student-hero h3{
+
+.student-hero h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 30px;
     font-weight: 700;
 }
-.student-content h1{
+
+.student-content h1 {
     font-family: 'Playfair Display', black;
     color: #233853;
     font-size: 45px;
     font-weight: 800;
 }
-.student-content h4{
+
+.student-content h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #233853;
     font-size: 26px;
     font-weight: 600;
 }
-.student-content p{
+
+.student-content p {
     font-family: 'PT Serif', serif;
     color: #979993;
     font-size: 17px;
 }
-.student-content img{
+
+.student-content img {
     height: 320px;
     width: 420px;
 }
-.student-content button{
+
+.student-content button {
     height: 50px;
     width: 200px;
     font-size: 16px;
     padding-bottom: 16px !important;
 }
-.overview{
+
+.overview {
     margin-top: 80px;
     height: 50vh;
 }
-.service{
+
+.service {
     margin-top: 80px;
     height: 100vh;
 }
-.bottom{
+
+.bottom {
     margin-top: 50px;
 }
-.life{
+
+.life {
     height: 100vh;
 }
-.texts{
+
+.texts {
     text-align: center;
 }
-.resource{
+
+.resource {
     margin-top: 80px;
     height: 50vh;
 }
-.windows{
+
+.windows {
     margin-top: 80px;
     height: 50vh;
 }
-.cafe{
+
+.cafe {
     margin-top: 80px;
     height: 50vh;
 }
-.arts{
+
+.arts {
     margin-top: 48px;
     height: 155vh;
 }
-.bottom{
+
+.bottom {
     margin-top: 40px;
 }
+
 /* #student_btn{
     font-size: 19px !important;
 } */
-@media (max-width: 575.98px) {
+
+@media (max-width: 576px) {
     .hero {
         height: 80vh;
         width: auto;
     }
-    .student-hero{
+    .student-hero {
         margin-top: 20px;
         margin-left: 0px;
     }
-    .student-hero h1{
+    .student-hero h1 {
         margin-top: 20px;
         font-size: 34px;
     }
-    .student-hero h3{
+    .student-hero h3 {
         margin-top: 10px;
         font-size: 24px;
     }
-    .overview{
+    .overview {
         height: auto;
     }
-    .service{
-       height: auto;
-    }
-    .life{
+    .service {
         height: auto;
     }
-    .resource{
+    .life {
         height: auto;
     }
-    .windows{
+    .resource {
         height: auto;
     }
-    .cafe{
+    .windows {
         height: auto;
     }
-    .arts{
+    .cafe {
         height: auto;
     }
-    #student-btn{
+    .arts {
+        height: auto;
+    }
+    #student-btn {
         margin-bottom: 10px;
     }
-    .student-content h1{
+    .student-content h1 {
         font-size: 34px;
     }
-    .footer{
+    .footer {
         display: none;
     }
 }
+
+@media (min-width: 576px) and (max-width: 769px) {
+    .student-hero {
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .overview {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .service {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .life {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .resource {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .windows {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .cafe {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .arts {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #student-btn {
+        margin-bottom: 10px;
+    }
+}
+
 /* @media (max-width: 767.98px) {}
 
 @media (max-width: 991.98px) {}
 
-@media (max-width: 1199.98px) {} */ 
+@media (max-width: 1199.98px) {} */

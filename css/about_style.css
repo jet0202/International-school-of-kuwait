@@ -151,20 +151,19 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 575.98px) {
-    
+@media (max-width: 576px) {
     .hero {
         height: 80vh;
         width: auto;
     }
-    .welcome{
+    .welcome {
         margin-top: 20px;
-        margin-left: 0px;        
+        margin-left: 0px;
     }
-    .welcome h1{
+    .welcome h1 {
         font-size: 40px;
     }
-    .welcome h3{
+    .welcome h3 {
         font-size: 30px;
     }
     .vision {
@@ -177,9 +176,9 @@
     }
     .renaissance {
         height: auto;
-        text-align: center;        
+        text-align: center;
     }
-    #ren-btn{
+    #ren-btn {
         width: 250px;
         height: 50px;
         font-size: 16px;
@@ -189,7 +188,7 @@
         height: auto;
         text-align: center;
     }
-    #fac-btn{
+    #fac-btn {
         font-size: 16px;
         margin-bottom: 10px;
     }
@@ -200,9 +199,6 @@
     #footer-btn {
         margin-bottom: 20px !important;
     }
-    #isk-foot-heading {
-        /* margin-left: 20px; */
-    }
     .contact-info {
         font-size: 10px;
     }
@@ -211,6 +207,46 @@
     }
     .copyright {
         margin-left: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 769px){
+    
+    /* .hero {
+        height: 80vh;
+        width: auto;
+    } */
+    .welcome {
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    /* .welcome h1{
+        font-size: 38px !important;
+    }
+    .welcome h3 {
+        font-size: 30px;
+    } */
+    .vision{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mission{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .renaissance{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #ren-btn{
+        margin-bottom: 20px;
+    }
+    .faculty{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #fac-btn{
+        margin-bottom: 15px;
     }
 }
 
