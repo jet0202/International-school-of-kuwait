@@ -18,10 +18,10 @@ body {
 }
 
 
-@media (max-width: 870px) { 
+@media (max-width: 768px) { 
   .navbar-collapse {
     position: absolute;
-    top:80px;
+    top:130px;
     right: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -53,6 +53,7 @@ body {
   color: #979993;
   font: Bold 12px/14px Arial;
   margin-top: 7px;
+  margin-bottom: 10px;
 }
 
 #bottom-nav a {
@@ -61,9 +62,9 @@ body {
   font: Bold 18px/21px Arial;
 }
 
-.navbar-nav>nav-link {
+/* .navbar-nav>nav-link {
   position: relative;
-}
+} */
 
 .navbar-light .navbar-nav .active a::after {
   border-bottom: 5px solid #B45F06;
@@ -105,6 +106,7 @@ body {
 
 #lang-select-btn {
   color: #233853;
+  font: 12px/14px Arial;
   font-weight: 400;
   border-top: none;
   border-left: none;
@@ -193,6 +195,9 @@ body {
   padding-top: 10vh;
   height: 60vh;
   /* background-color: tomato; */
+}
+#app-btn{
+  text-align: center;
 }
 
 .curriculum_tag h2 {
@@ -522,7 +527,7 @@ body {
     margin-top: 10vh;
     height: 80vh;
     padding-left: 20px;
-    background-image: url("/img/event-hero.jpg");
+    background-image: url("/img/carosel/kuwait-city-skyline.jpg");
     background-size: cover;
     width: 100%;
   }
@@ -537,7 +542,7 @@ body {
     right: 0;
   }
   .taglines {
-    margin-top: 20px;
+    margin-top: 10px;
     /* display: none; */
   }
   .taglines h2, h4, button {
@@ -546,22 +551,28 @@ body {
     
   }
   .curriculum {
-    height: 60vh;  
-    /* display: none;   */
+    height:auto;
+    margin-bottom: 32px;
   }
   .events {
-    height: 100%;
-    /* display: none; */
+    height:auto;
+    margin-bottom: 32px;
   }
   .apply {
-    height:70vh;
+    height:auto;
+    margin-bottom: 32px;
     /* display: none; */
   }
+  #app-btn{        
+    margin-bottom: 10px;    
+  }
+  
   .apply_tag{
     margin-top: 48px;
   }
   .footer {
-      height: 60vh;
+    text-align: center;
+      height: auto;
       /* display: none; */
     }
     #footer-btn{
@@ -587,7 +598,7 @@ body {
     margin-top: 10vh;
     height: 85vh;
     /* padding-left: 1; */
-    background-image: url("/img/event-hero.jpg");
+    background-image: url("/img/carosel/kuwait-city-skyline.jpg");
     background-size: cover;
     width: 100%;
   }
@@ -602,14 +613,15 @@ body {
     right: 0;
   }
  .taglines{
-   margin-top: -18px;
+  margin-top: 20px !important;
+  margin-left: 0px;;
  }
-  .taglines h2{
+  /* .taglines h2{
     font-size: 38px !important;
   }
   .taglines h4{
     font-size: 26px;
-  }
+  } */
   #tag-btn{
     width: 232px;
     height: 45px;
@@ -649,7 +661,7 @@ body {
   }
  }
  
-@media (min-width: 770px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
     #carousel{
     position: absolute;
   }
@@ -683,14 +695,16 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1395px){
   .taglines{
-    margin-top: -120px;    
+    margin-top: 20px !important;
+    margin-left: 0px;  
+    
   }
-  .taglines h2{
+  /* .taglines h2{
     font-size: 3rem !important;
   }
   .taglines h4{
     font-size: 2rem;
-  }
+  } */
   .curriculum{
     height: auto;
     margin-bottom: 80px;

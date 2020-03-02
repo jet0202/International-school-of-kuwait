@@ -2,7 +2,7 @@
 .hero {
     padding-top: 14vh;
     height: 80vh;
-    background-image: url("/img/academics-hero.jpg");
+    background-image: url("../img/academics-hero.jpg");
     background-size: cover;
 }
 

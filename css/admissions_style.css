@@ -2,7 +2,7 @@
 .hero {
     padding-top: 14vh;
     height: 80vh;
-    background-image: url("/img/campus.jpg");
+    background-image: url("../img/campus.jpg");
     background-size: cover;
 }
 
@@ -143,7 +143,8 @@
 }
 
 .tuition {
-    height: 75vh;
+    text-align: center;
+    height: auto;
 }
 
 .tuition h1 {
@@ -230,11 +231,9 @@ input[type='text'], input[type='email'] {
     border-left: none;
     border-top: none;
     border-right: none;
-    border-bottom: 3px solid #B45F06
+    border-bottom: 3px solid #B45F06;
 }
-
-input[type='text']:focus, input[type='email']:focus {
-    /* width: 362px; */
+textarea.form-control {
     background-color: #EEEFEA;
     border-radius: 0;
     border-left: none;
@@ -243,6 +242,31 @@ input[type='text']:focus, input[type='email']:focus {
     border-bottom: 3px solid #B45F06
 }
 
+input[type='text']:focus, input[type='email']:focus {
+    /* width: 362px; */
+    border-color: #B45F06;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(180, 95, 6, 0.6);
+    outline: 0 none;
+}
+
+textarea.form-control:focus {
+    border-color: #B45F06;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(180, 95, 6, 0.6);
+    outline: 0 none;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #B45F06;
+  }
+  
+  .custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(180, 95, 6, 0.6);
+  }
+  .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #B45F06;
+  }
+  .custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+    background-color: rgba(175, 151, 124, 0.6); 
+  }
 #req-btn {
     font-size: small;
     width: 210px;
@@ -252,7 +276,7 @@ input[type='text']:focus, input[type='email']:focus {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     
     .hero {
         height: 80vh;
@@ -294,14 +318,125 @@ input[type='text']:focus, input[type='email']:focus {
         /* display: none; */
         text-align: center;
     }
-    /* input[type='text'], input[type='email'] {
-        width: 250px;
-    } */
-    .footer {
-        display: none;
+    
+    .footer{
+        height: auto;
+        margin-top: 25px;
+      }
+      #isk-foot-heading{
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .contact-info{
+        margin-left: 20px;
+      }
+      .socials{
+        justify-content: space-evenly;
+      }
+      .links{
+        justify-content: space-evenly;
+      }
+      .copyright{
+        margin: 10px 10px;
+      }
+}
+
+@media (min-width: 576px) and (max-width: 769px){
+    .admis-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .overview {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .visit {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .tuition {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .apply {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    #req-btn{
+        margin-bottom: 10px;
+    }
+    .request {
+        height: auto;
+        margin-bottom: 32px;
+        text-align: center;
     }
 }
 
+@media (min-width: 769px) and (max-width: 992px){
+    .admis-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .overview {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .visit {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .tuition {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .apply {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    /* .admiss-form{
+      
+    } */
+    #req-btn{
+        margin-bottom: 10px;
+    }
+    .request {
+        height: auto;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+}
+@media (min-width: 992px) and (max-width: 1395px){
+    .admis-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .overview {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .visit {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .tuition {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .apply {
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .request{
+        height: auto;
+        margin-bottom: 32px;
+    }
+}
+@media (min-width: 1395px) {
+    .request{
+        height: auto;
+        margin-bottom: 32px;
+    }
+} 
 /* @media (max-width: 767.98px) {}
 
 @media (max-width: 991.98px) {}

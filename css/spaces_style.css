@@ -2,7 +2,7 @@
 .hero {
     padding-top: 14vh;
     height: 80vh;
-    background-image: url("/img/campus.jpg");
+    background-image: url('../img/spaces-hero.jpg');
     background-size: cover;
 }
 
@@ -109,8 +109,25 @@ img{
         height: auto;
     }
     .footer{
-        display: none;
-    }
+        height: auto;
+        margin-top: 25px;
+      }
+      #isk-foot-heading{
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .contact-info{
+        margin-left: 20px;
+      }
+      .socials{
+        justify-content: space-evenly;
+      }
+      .links{
+        justify-content: space-evenly;
+      }
+      .copyright{
+        margin: 10px 10px;
+      }
     
 }
 @media (min-width: 576px) and (max-width: 769px){
@@ -130,10 +147,44 @@ img{
         height: auto;
         margin-bottom: 20px;
     }
+
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .spaces-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .introduction{
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .mahboula{
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .sabah{
+        height: auto;
+        margin-bottom: 32px;
+    }
 }
 
-/* @media (max-width: 767.98px) {}
+@media (min-width: 992px) and (max-width: 1395px){
+    .spaces-hero{
+        margin-top: 20px !important;
+        margin-left: 0px;
+    }
+    .introduction{
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .mahboula{
+        height: auto;
+        margin-bottom: 32px;
+    }
+    .sabah{
+        height: auto;
+        margin-bottom: 32px;
+    }
+} 
 
-@media (max-width: 991.98px) {}
 
-@media (max-width: 1199.98px) {} */ 
